@@ -1,0 +1,15 @@
+The following CSS rule is attempting to select elements with the class "example" that are also descendants of elements with the class "container", but due to a typo, it won't work as expected.  The correct selector should use a space between the class selectors to indicate the descendant relationship. 
+
+```css
+.containerexample { /* Incorrect */
+  color: blue;
+}
+```
+
+Instead it should be written as:
+
+```css
+.container .example { /* Correct */
+  color: blue;
+}
+```
