@@ -1,0 +1,9 @@
+The correct CSS to select elements with class "example" that are descendants of elements with class "container" is:
+
+```css
+.container .example {
+  color: blue;
+}
+```
+
+This uses a space to properly represent the descendant combinator, ensuring that only elements with the class "example" within elements with the class "container" are styled.
